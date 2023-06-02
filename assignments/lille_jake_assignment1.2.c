@@ -7,11 +7,14 @@ Copyright 2023 Lille_Jake
 
 int main(void) {
 
+
+  //declare variables - numberTest = user's input, then all digit variables to store individual digits.
   int numberTest;
   int digit1, digit2, digit3, digit4, digit5;
 
   //Prompt for input
   printf("Enter a 5 digit number to test: ");
+  //%d for integer, & to assign to numberTest
   scanf("%d", &numberTest);
 
   /* same code as separating the numbers as last time, 
