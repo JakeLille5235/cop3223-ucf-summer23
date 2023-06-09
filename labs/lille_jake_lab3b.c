@@ -1,3 +1,8 @@
+/*
+COP3223 Summer 2023 Lab3B
+Copyright 2023 Lille_Jake
+*/
+
 #include <stdio.h>
 
 int main() {
