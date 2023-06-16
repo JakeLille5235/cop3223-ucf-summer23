@@ -47,7 +47,7 @@ int main(void) {
 
       //conditional to test if guess is equal to randomInteger
       if(userGuess == randomInteger){
-        printf("%s", "You got the number! ");
+        printf("You got the number in %d guesses! ", j);
         break;
       } else if (userGuess != randomInteger){ //not equal to the right value...
           if(j != 7){ //nested if/else to see if attempts are left or not, change print message
