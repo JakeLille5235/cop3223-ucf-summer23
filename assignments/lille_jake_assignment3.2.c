@@ -61,7 +61,7 @@ int main() {
     printf("%s", "Enter ID to search: ");
     scanf("%d", &searchId); // Convert input to int
     search_id(searchId);
-  } else {
+  } else if (searchType != 0 & searchType != 1 & searchType != 2) {
     printf("Invalid search type.\n");
   }
 
